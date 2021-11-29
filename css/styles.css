@@ -9,3 +9,12 @@ span {
 img {
   width: 50px;
 }
+
+.black {
+  border: 1px solid black;
+}
+
+.red {
+  color: red;
+  border: 1px solid red;
+}
