@@ -1,0 +1,142 @@
+/* "Go back" link */
+#go-back {
+  position: fixed;
+  top: 0;
+  right: 3rem;
+}
+
+/* Part A */
+#css-diner img {
+  width: 70vw;
+}
+
+/* Part B - Iteration 1 */
+#red-target .outer {
+  background-color: white;
+  border: 1px solid black;
+  box-sizing: content-box;
+  height: 98px;
+  width: 98px;
+  padding: 50px;
+}
+
+#red-target .inner {
+  background-color: red;
+  border: 2px dotted black;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+}
+
+/* Part B - Shaped table */
+#shaped-table table {
+  height: 150px;
+  width: 300px;
+}
+
+#shaped-table td {
+  border: 1px solid black;
+}
+
+#shaped-table tr:nth-child(even) td:nth-child(odd) {
+  background-color: peru;
+}
+
+/* Part B - Purple blocks */
+#purple-blocks .outer {
+  border: 1px solid black;
+  color: white;
+  width: 298px;
+  margin-bottom: 5px;
+}
+
+#purple-blocks .outer:nth-child(3) {
+  text-align: right;
+}
+
+#purple-blocks .outer div {
+  background-color: purple;
+  margin: 5px 4px 0;
+  padding: 0 5px;
+}
+
+#purple-blocks .outer:nth-child(2) div:nth-child(1) {
+  width: 58px;
+}
+
+#purple-blocks .outer:nth-child(2) div:nth-child(2) {
+  width: 222px;
+}
+
+#purple-blocks .outer:nth-child(3) div:nth-child(1) {
+  box-sizing: border-box;
+  margin: 5px 4px 0 auto;
+  width: 222px;
+}
+
+#purple-blocks .outer:nth-child(3) div:nth-child(2) {
+  margin: 0 4px;
+  width: 58px;
+}
+
+/* Part B - Inline-blocks rows */
+#inline-blocks-rows {
+  width: 300px;
+}
+
+#inline-blocks-rows .outer {
+  color: white;
+  margin-bottom: 2px;
+}
+
+#inline-blocks-rows .outer div {
+  border-style: solid;
+  border-width: 0 2px;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem 0;
+  width: 71px;
+}
+
+#inline-blocks-rows .outer:nth-child(2) div {
+  background-color: red;
+  border-color: black;
+}
+
+#inline-blocks-rows .outer:nth-child(3) div {
+  background-color: black;
+  border-color: red;
+}
+
+/* Part B - Flexbox rows */
+#flexbox-rows {
+  width: 300px;
+}
+
+#flexbox-rows .outer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 2px;
+}
+
+#flexbox-rows .outer div {
+  flex: 1;
+  border-style: solid;
+  border-width: 0 2px;
+  text-align: center;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+#flexbox-rows .outer:nth-child(2) div {
+  background-color: orange;
+  border-color: green;
+}
+
+#flexbox-rows .outer:nth-child(3) div {
+  background-color: green;
+  border-color: orange;
+}
